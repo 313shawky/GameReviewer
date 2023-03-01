@@ -1,0 +1,58 @@
+body{
+    background-color: #272b30;
+    font-family: 'Comic Neue', cursive;
+}
+
+.header-image img{
+    height: 30vh;
+    object-fit: cover;
+}
+
+nav{
+    width: 95%;
+    transform: translateY(-50%);
+}
+
+.navbar-nav a{
+    color: #0F6292 !important;
+}
+
+.active-link a{
+    color: #fff !important;
+}
+
+.navbar-nav a:hover{
+    cursor: pointer;
+    color: #fff !important;
+}
+
+.badge{
+    background-color: #363739;
+}
+
+.card p{
+    font-size: 15px;
+    height: 75px;
+    overflow: hidden;
+}
+
+.card{
+    cursor: pointer;
+    filter: grayscale(0.5);
+    transition: all 0.5s;
+}
+
+.card:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+
+#game-details i{
+    cursor: pointer;
+    color: gray;
+    transition: color 0.5s;
+}
+
+#game-details i:hover{
+    color: #fff;
+}
